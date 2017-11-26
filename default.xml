@@ -565,7 +565,7 @@
   <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
   <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" />
-  <project path="system/netd" name="blackrebel75/android_system_netd" groups="pdk" revision="cm-12.1-mt6589"/>
+  <project path="system/netd" name="blackrebel75/android_system_netd" groups="pdk" revision="cm-12.1-mt6589" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
@@ -584,6 +584,6 @@
   <project path="vendor/cm" name="LineageOS/android_vendor_cm" />
   <project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
   <!-- Huawei G700 -->
-  <project name="android_device_huawei_g700" path="device/huawei/g700" remote="blackrebel75" revision="cm-12.1-mt6589"/>
+  <project name="android_device_huawei_g700" path="device/huawei/g700" remote="blackrebel75" revision="cm-12.1-mt6589" />
   <project name="android_vendor_huawei_g700" path="vendor/huawei/g700" remote="blackrebel75" revision="cm-12.1-mt6589" />  
 </manifest>
