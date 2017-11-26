@@ -584,6 +584,6 @@
   <project path="vendor/cm" name="LineageOS/android_vendor_cm" />
   <project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
   <!-- Huawei G700 -->
-  <project path="device/huawei/g700" name="blackrebel75/android_device_huawei_g700" remote="cm-12.1-mt6589" />
-  <project path="vendor/huawei/g700" name="blackrebel75/android_vendor_huawei_g700" remote="cm-12.1-mt6589" />   
+  <project path="device/huawei/g700" name="blackrebel75/android_device_huawei_g700" />
+  <project path="vendor/huawei/g700" name="blackrebel75/android_vendor_huawei_g700" />   
 </manifest>
