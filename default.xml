@@ -18,7 +18,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="LineageOS/android_build" groups="pdk,tradefed" >
+  <project path="build" name="blackrebel75/android_build" groups="pdk,tradefed" revision="cm-12.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -26,7 +26,7 @@
 
   <project path="abi/cpp" name="LineageOS/android_abi_cpp" groups="pdk" />
   <project path="art" name="LineageOS/android_art" groups="pdk" />
-  <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
+  <project path="bionic" name="blackrebel75/android_bionic" groups="pdk" revision="cm-12.1-mt6589" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="LineageOS/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="LineageOS/android_dalvik" groups="pdk-cw-fs" />
@@ -273,7 +273,7 @@
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/openssh" name="LineageOS/android_external_openssh" />
-  <project path="external/openssl" name="LineageOS/android_external_openssl" />
+  <project path="external/openssl" name="blackrebel75/android_external_openssl" revision="cm-12.1-mt6589" />
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" remote="aosp" />
   <project path="external/pciutils" name="LineageOS/android_external_pciutils" />
@@ -297,7 +297,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" />
   <project path="external/sepolicy" name="LineageOS/android_external_sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" />
-  <project path="external/skia" name="LineageOS/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" />
+  <project path="external/skia" name="blackrebel75/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" revision="cm-12.1-mt6589" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fw" remote="aosp" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" />
@@ -326,7 +326,7 @@
   <project path="external/vim" name="LineageOS/android_external_vim" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp" />
-  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="blackrebel75/android_external_wpa_supplicant_8" groups="pdk" revision="cm-12.1-mt6589" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" remote="aosp" />
@@ -334,8 +334,8 @@
   <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
-  <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="LineageOS/android_frameworks_base" />
+  <project path="frameworks/av" name="blackrebel75/android_frameworks_av" groups="pdk" revision="cm-12.1-mt6589" />
+  <project path="frameworks/base" name="blackrebel75/android_frameworks_base" revision="cm-12.1-mt6589" />
   <project path="frameworks/compile/libbcc" name="LineageOS/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="LineageOS/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="LineageOS/android_frameworks_compile_slang" groups="pdk" />
@@ -344,7 +344,7 @@
   <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="LineageOS/android_frameworks_ml" />
   <project path="frameworks/multidex" name="LineageOS/android_frameworks_multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="blackrebel75/android_frameworks_native" groups="pdk" revision="cm-12.1-mt6589" />
   <project path="frameworks/opt/bitmap" name="LineageOS/android_frameworks_opt_bitmap" />
   <project path="frameworks/opt/bluetooth" name="LineageOS/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="LineageOS/android_frameworks_opt_calendar" />
@@ -362,7 +362,7 @@
   <project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="LineageOS/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/setupwizard" name="LineageOS/android_frameworks_opt_setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="blackrebel75/android_frameworks_opt_telephony" groups="pdk" revision="cm-12.1-mt6589" />
   <project path="frameworks/opt/timezonepicker" name="LineageOS/android_frameworks_opt_timezonepicker" />
   <project path="frameworks/opt/vcard" name="LineageOS/android_frameworks_opt_vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" />
@@ -391,8 +391,8 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" remote="aosp" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" remote="aosp" />
   <project path="hardware/invensense" name="LineageOS/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />
+  <project path="hardware/libhardware" name="blackrebel75/android_hardware_libhardware" groups="pdk" revision="cm-12.1-mt6589" />
+  <project path="hardware/libhardware_legacy" name="blackrebel75/android_hardware_libhardware_legacy" groups="pdk" revision="cm-12.1-mt6589" />
   <project path="hardware/nvidia/audio" name="LineageOS/android_hardware_nvidia_audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="LineageOS/android_hardware_nvidia_tegra124" groups="tegra124" />
   <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
@@ -560,12 +560,12 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" remote="aosp" />
   <project path="sdk" name="platform/sdk" remote="aosp" />
-  <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
+  <project path="system/core" name="blackrebel75/android_system_core" groups="pdk" revision="cm-12.1-mt6589" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
   <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" />
-  <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
+  <project path="system/netd" name="blackrebel75/android_system_netd" groups="pdk" revision="cm-12.1-mt6589"/>
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
@@ -583,4 +583,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cm" name="LineageOS/android_vendor_cm" />
   <project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
+  <!-- Huawei G700 -->
+  <project name="android_device_huawei_g700" path="device/huawei/g700" remote="blackrebel75" revision="cm-12.1-mt6589"/>
+  <project name="android_vendor_huawei_g700" path="vendor/huawei/g700" remote="blackrebel75" revision="cm-12.1-mt6589" />  
 </manifest>
