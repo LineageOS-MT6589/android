@@ -1,4 +1,4 @@
-LineageOS for MediaTek MT6589
+LineageOS 12.1 for MediaTek MT6589
 =============================
 Getting Started
 ---------------
