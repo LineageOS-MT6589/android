@@ -13,6 +13,6 @@ Then to sync up:
 
 Build
 -----
-<!--source build/envsetup.sh && lunch-->
-<!--make otapackage -j8-->
+    source build/envsetup.sh && lunch
+    make otapackage -j8
 
