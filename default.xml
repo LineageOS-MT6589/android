@@ -586,4 +586,7 @@
   <!-- Huawei G700 -->
   <project path="device/huawei/g700" name="LineageOS-MT6589/android_device_huawei_g700" revision="cm-12.1-mt6589" />
   <project path="vendor/huawei/g700" name="LineageOS-MT6589/android_vendor_huawei_g700" revision="cm-12.1-mt6589" />   
+  <!-- Fly iq446 -->
+  <project path="device/fly/iq446" name="andr7e/android_device_fly_iq446" revision="cm-12.1" />
+  <project path="vendor/fly/iq446" name="andr7e/android_vendor_fly_iq446" revision="cm-12.1" />
 </manifest>
