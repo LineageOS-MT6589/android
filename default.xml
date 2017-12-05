@@ -286,7 +286,7 @@
   <project path="external/vim" name="LineageOS/android_external_vim" />
   <project path="external/webp" name="LineageOS/android_external_webp" />
   <project path="external/webrtc" name="LineageOS/android_external_webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="andreya108/android_external_wpa_supplicant_8-cm11" groups="pdk" revision="master" />
   <project path="external/wpa_supplicant_8_ti" name="LineageOS/android_external_wpa_supplicant_8_ti" />
   <project path="external/xmlwriter" name="LineageOS/android_external_xmlwriter" />
   <project path="external/xmp_toolkit" name="LineageOS/android_external_xmp_toolkit" />
@@ -294,7 +294,7 @@
   <project path="external/zip" name="LineageOS/android_external_zip" />
   <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="LineageOS/android_external_zxing" />
-  <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/av" name="andreya108/android_frameworks_av-cm11" groups="pdk" revision="master" />
   <project path="frameworks/base" name="LineageOS/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="LineageOS/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="LineageOS/android_frameworks_compile_mclinker" groups="pdk" />
@@ -315,7 +315,7 @@
   <project path="frameworks/opt/net/voip" name="LineageOS/android_frameworks_opt_net_voip" />
   <project path="frameworks/opt/photoviewer" name="LineageOS/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="LineageOS/android_frameworks_opt_timezonepicker" />
-  <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="andreya108/android_frameworks_opt_telephony-cm11" groups="pdk" revision="cm-11.0" />
   <project path="frameworks/opt/telephony-msim" name="LineageOS/android_frameworks_opt_telephony-msim" />
   <project path="frameworks/opt/vcard" name="LineageOS/android_frameworks_opt_vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -477,7 +477,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk,tools" />
   <project path="sdk" name="LineageOS/android_sdk" />
-  <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
+  <project path="system/core" name="andreya108/android_system_core-cm11" groups="pdk" revision="master" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" />
   <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
@@ -497,4 +497,7 @@
   <project path="vendor/cm" name="LineageOS/android_vendor_cm" >
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
+  <!-- Lenovo P780 -->
+  <project path="device/lenovo/P780_ROW" name="andreya108/device_lenovo_P780_ROW-cm11" revision="master" />
+  <project path="vendor/lenovo/P780_ROW" name="andreya108/vendor_lenovo_P780_ROW-cm11" revision="master" />  
 </manifest>
